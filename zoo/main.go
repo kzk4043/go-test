@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Welcome to the", AppName())
+
 	fmt.Println("Rabbit eats:", animals.RabbitFeed())
 	fmt.Println("Monkey eats:", animals.MonkeyFeed())
 	fmt.Println("Elephant eats:", animals.ElephantFeed())
